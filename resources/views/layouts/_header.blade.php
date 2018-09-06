@@ -37,7 +37,7 @@
                       <ul class="dropdown-menu">
                         <li><a href="{{ route('user.edit', auth()->user()) }}">修改资料</a></li>
                          <li class="divider"></li>
-                        <li><a href="#">个人中心</a></li>
+                        <li><a href="{{ route('user.show', auth()->user()) }}">个人中心</a></li>
                         <li><a href="{{ route('user.index') }}">用户列表</a></li>
                       </ul>
             </li>
