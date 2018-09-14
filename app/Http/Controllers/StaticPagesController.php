@@ -11,21 +11,8 @@ class StaticPagesController extends Controller
         return view('app.home');
     }
 
-    public function pic_one()
+    public function pic_one(Request $request)
     {
-        return view('app.pic_one');
+        return view('app' . '.' . $request->pic);
     }
-    public function pic_two()
-    {
-        return view('app.pic_two');
-    }
-    public function pic_three()
-    {
-        return view('app.pic_three');
-    }
-    public function pic_four()
-    {
-        return view('app.pic_four');
-    }
-
 }

@@ -8,34 +8,98 @@
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+
+    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+
   </ol>
 
-  <!-- Wrapper for slides -->
+  <!-- picture 1----------------------------------->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <a href="{{ route('pic_one') }}"><img src="img/xxb1.jpg" alt="..."></a>
+      <a href="{{ route('picture','1') }}"><img src="img/xxb1.jpg" alt="..."></a>
       <div class="carousel-caption">
-        真诚、共赢、无微不至
+        整洁程度
       </div>
     </div>
+     <!-- picture 2----------------------------------->
     <div class="item">
-      <a href="{{ route('pic_two') }}"><img src="img/xxb2.jpg" alt="..."></a>
+      <a href="{{ route('picture', '2') }}"><img src="img/xxb2.jpg" alt="..."></a>
       <div class="carousel-caption">
-        真诚、共赢、无微不至
+        酷炫DIY配置研究深度学习
       </div>
     </div>
+     <!-- picture 3----------------------------------->
     <div class="item">
-      <a href="{{ route('pic_three') }}"><img src="img/xxb3.jpg" alt="..."></a>
+      <a href="{{ route('picture', '3') }}"><img src="img/xxb3.jpg" alt="..."></a>
       <div class="carousel-caption">
-        真诚、共赢、无微不至
+       水质监测与智能鱼缸
       </div>
     </div>
+     <!-- picture 4----------------------------------->
     <div class="item">
-      <a href="{{ route('pic_four') }}"><img src="img/xxb4.jpg" alt="..."></a>
+      <a href="{{ route('picture', '4') }}"><img src="img/xxb4.jpg" alt="..."></a>
       <div class="carousel-caption">
-        真诚、共赢、无微不至
+        多屏协同LED显示
       </div>
     </div>
+     <!-- picture 5----------------------------------->
+     <div class="item">
+      <a href="{{ route('picture', '5') }}"><img src="img/xxb4.jpg" alt="..."></a>
+      <div class="carousel-caption">
+        台式机硬件资源丰富
+      </div>
+    </div>
+
+      <!-- picture 6----------------------------------->
+      <div class="item">
+      <a href="{{ route('picture', '6') }}"><img src="img/xxb4.jpg" alt="..."></a>
+      <div class="carousel-caption">
+        嵌入式硬件资源丰富
+      </div>
+    </div>
+       <!-- picture 7----------------------------------->
+       <div class="item">
+      <a href="{{ route('picture', '7') }}"><img src="img/xxb4.jpg" alt="..."></a>
+      <div class="carousel-caption">
+        参考书籍资料丰富
+      </div>
+    </div>
+        <!-- picture 8----------------------------------->
+    <div class="item">
+      <a href="{{ route('picture', '8') }}"><img src="img/xxb4.jpg" alt="..."></a>
+      <div class="carousel-caption">
+        高清投影会议室
+      </div>
+    </div>
+         <!-- picture 9----------------------------------->
+    <div class="item">
+      <a href="{{ route('picture', '9') }}"><img src="img/xxb4.jpg" alt="..."></a>
+      <div class="carousel-caption">
+        智能车机械电子计算机设计
+      </div>
+    </div>
+          <!-- picture 10----------------------------------->
+    <div class="item">
+      <a href="{{ route('picture', '10') }}"><img src="img/xxb4.jpg" alt="..."></a>
+      <div class="carousel-caption">
+        3D打印DLP学习
+      </div>
+    </div>
+           <!-- picture 11----------------------------------->
+           <div class="item">
+      <a href="{{ route('picture', '11') }}"><img src="img/xxb4.jpg" alt="..."></a>
+      <div class="carousel-caption">
+        Laravel 人机交互系统编程
+      </div>
+    </div>
+
   </div>
 
   <!-- Controls -->
