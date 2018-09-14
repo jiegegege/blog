@@ -13,25 +13,25 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/xxb1.jpg" alt="...">
+      <a href="{{ route('pic_one') }}"><img src="img/xxb1.jpg" alt="..."></a>
       <div class="carousel-caption">
         真诚、共赢、无微不至
       </div>
     </div>
     <div class="item">
-      <img src="img/xxb2.jpg" alt="...">
+      <a href="{{ route('pic_two') }}"><img src="img/xxb2.jpg" alt="..."></a>
       <div class="carousel-caption">
         真诚、共赢、无微不至
       </div>
     </div>
     <div class="item">
-      <img src="img/xxb3.jpg" alt="...">
+      <a href="{{ route('pic_three') }}"><img src="img/xxb3.jpg" alt="..."></a>
       <div class="carousel-caption">
         真诚、共赢、无微不至
       </div>
     </div>
     <div class="item">
-      <img src="img/xxb4.jpg" alt="...">
+      <a href="{{ route('pic_four') }}"><img src="img/xxb4.jpg" alt="..."></a>
       <div class="carousel-caption">
         真诚、共赢、无微不至
       </div>
