@@ -4,6 +4,7 @@
 body {
  padding-top: 50px;
  font-family: '微软雅黑';
+ padding-bottom: 100px;
 
  }
 .panel{
@@ -19,14 +20,42 @@ body {
 }
 .button-btn{
     width: 60px;
-    height: 26px;
+    height: 27px;
     background-color: red;
     margin-top: 12px;
     border-radius: 5px;
     margin-bottom: 0px;
 
 }
-.button-btn a{
-    margin-top: -10px;
+.button-btn .exit{
+    margin: 6px 13px;
 }
 
+.button-btn .exit a:link{
+    text-decoration: none;
+}
+#table-hover{
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.navbar-brand{
+    padding: 10px 10px;
+}
+.introduction{
+    width: 780px;
+    margin: 0 auto;
+    text-align: center;
+}
+.modal-content{
+    padding: 20px;
+}
+#modal-dialog{
+    margin: 0 auto;
+}
+
+#tablist li.active a{
+    border-bottom: 2px solid red;
+    background-color: #f0f0f0;
+}

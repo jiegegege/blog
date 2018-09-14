@@ -2,15 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>小学帮</title>
     <link rel="stylesheet" href="/css/app.css">
    {{--  引入站点图标 --}}
-    <link rel="shortcut icon" href="/5b8f9636d8736.64px.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/zhandiantubiao.ico" type="image/x-icon">
 </head>
 <body>
     @include('layouts._header')
     @include('layouts._message')
     @yield('content')
-    <script src="/js/app.js"></script>
+{{--     @include('layouts.footer')
+ --}}    <script src="/js/app.js"></script>
 </body>
 </html>
+
+{{-- <script>
+    let toggle = $('#toggle');
+    alert('Hello!');
+</script> --}}

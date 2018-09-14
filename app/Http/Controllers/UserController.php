@@ -7,6 +7,16 @@ use App\User;
 
 class UserController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth', [
+           'except' => ['create','store']
+        ]);
+
+        $this->middleware('guest',[
+            'only' => ['create','store']
+        ]);
+    }
 
     public function index()
     {
@@ -38,12 +48,13 @@ class UserController extends Controller
 
     public function show(User $user)
     {
-
+        return view('app.show', compact('user'));
 
     }
 
     public function edit(User $user)
     {
+        $this->authorize('update', $user);
         return view('app.edit', compact('user'));
     }
 
@@ -65,8 +76,11 @@ class UserController extends Controller
         return redirect()->route('home');
     }
 
-    public function destroy($id)
+    public function destroy(User $user)
     {
-        //
+        $this->authorize('delete', $user);
+        $user->delete();
+        session()->flash('success', '删除用户成功！');
+        return redirect()->back();
     }
 }

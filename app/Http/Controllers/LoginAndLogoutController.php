@@ -6,6 +6,17 @@ use Illuminate\Http\Request;
 
 class LoginAndLogoutController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth', [
+            'except' => ['login', 'store']
+
+        ]);
+        $this->middleware('guest', [
+            'only' => ['login', 'store', ]
+        ]);
+    }
+
     public function login()
     {
         return view('app.login');

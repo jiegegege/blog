@@ -1,14 +1,51 @@
 @extends('layouts.default')
 @section('content')
-<div class="container homepage">
-   <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <p class="lead text-center">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/xxb1.jpg" alt="...">
+      <div class="carousel-caption">
+        真诚、共赢、无微不至
+      </div>
     </div>
+    <div class="item">
+      <img src="img/xxb2.jpg" alt="...">
+      <div class="carousel-caption">
+        真诚、共赢、无微不至
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/xxb3.jpg" alt="...">
+      <div class="carousel-caption">
+        真诚、共赢、无微不至
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/xxb4.jpg" alt="...">
+      <div class="carousel-caption">
+        真诚、共赢、无微不至
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 @stop
