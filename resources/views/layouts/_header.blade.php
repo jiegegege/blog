@@ -16,10 +16,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
             <li><a href="{{ route('home') }}">网站首页</a></li>
-            <li><a href="{{ route('about') }}">关于我们</a></li>
-            <li><a href="{{ route('cooperation') }}">加盟合作</a></li>
-            <li><a href="{{ route('activity') }}">公益活动</a></li>
-            <li><a href="{{ route('store') }}">购物商城</a></li>
+
+
       </ul>
 
         @if(Auth::check())
