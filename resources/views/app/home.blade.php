@@ -25,7 +25,7 @@
     <div class="item active">
       <a href="{{ route('picture','1') }}"><img src="img/a1.jpg" alt="..."></a>
       <div class="carousel-caption">
-        整洁程度
+        高清投影会议室
       </div>
     </div>
      <!-- picture 2----------------------------------->
@@ -75,7 +75,7 @@
     <div class="item">
       <a href="{{ route('picture', '8') }}"><img src="img/a8.jpg" alt="..."></a>
       <div class="carousel-caption">
-        高清投影会议室
+        良好的学习环境
       </div>
     </div>
          <!-- picture 9----------------------------------->

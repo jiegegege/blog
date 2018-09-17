@@ -1,4 +1,7 @@
 @extends('layouts.default')
 @section('content')
-<h2>遵循软件工程的设计与反馈的思想，定时召开团队成员会议，确保项目及时调整设计思路。</h2>
+    <h2 style="text-align: center;">实验室的处女座男生给你一个清新的学习环境！</h2>
+    <div class="picture_about">
+        <img src="/img/1.jpg" alt="" >
+    </div>
 @stop
