@@ -14,5 +14,6 @@ class StaticPagesController extends Controller
     public function pic_one(Request $request)
     {
         return view('app' . '.' . $request->pic);
+        return redirect()->route('picture');;
     }
 }

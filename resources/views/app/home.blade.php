@@ -21,7 +21,7 @@
   </ol>
 
   <!-- picture 1----------------------------------->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner" role="listbox" id="picture_list">
     <div class="item active">
       <a href="{{ route('picture','1') }}"><img src="img/a1.jpg" alt="..."></a>
       <div class="carousel-caption">
