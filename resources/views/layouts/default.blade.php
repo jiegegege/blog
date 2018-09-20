@@ -11,5 +11,10 @@
     @yield('content')
 
 <script src="/js/app.js"></script>
+<script>
+    $(function(){
+        $('#carousel-example-generic').carousel({{ isset($currPic) ? $currPic : 0 }});
+    });
+</script>
 </body>
 </html>

@@ -6,14 +6,14 @@ use Illuminate\Http\Request;
 
 class StaticPagesController extends Controller
 {
-    public function home()
+    public function home($selectedPic = 0)
     {
-        return view('app.home');
+        return view('app.home')->with('currPic', 'selectedPic');
     }
 
     public function pic_one(Request $request)
     {
-        return view('app' . '.' . $request->pic);
-        return redirect()->route('picture');;
+        $pci_selected = $request->pic;
+        return view('app' . '.' . $pci_selected)->with('currPic', 'pci_selected');
     }
 }

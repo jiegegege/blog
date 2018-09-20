@@ -14,7 +14,7 @@
 
     <div class="collapse navbar-collapse" id="bs-example">
       <ul class="nav navbar-nav">
-            <li><a href="{{ route('home') }}" class="brand-bar glyphicon glyphicon-home">ISMTA实验室</a></li>
+            <li><a href="{{ route('home', isset($currPic) ? $currPic : 0) }}" class="brand-bar glyphicon glyphicon-home">ISMTA实验室</a></li>
       </ul>
     </div>
   </div>
