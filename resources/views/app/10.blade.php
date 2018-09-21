@@ -9,4 +9,5 @@
         你的浏览器不支持此影音播放模式！
     </video>
 </div>
+@include('layouts._back_to_home')
 @stop

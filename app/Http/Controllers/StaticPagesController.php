@@ -6,14 +6,21 @@ use Illuminate\Http\Request;
 
 class StaticPagesController extends Controller
 {
-    public function home($selectedPic = 0)
+    public function home()
     {
-        return view('app.home')->with('currPic', 'selectedPic');
+        return view('app.home');
     }
 
     public function pic_one(Request $request)
     {
         $pci_selected = $request->pic;
-        return view('app' . '.' . $pci_selected)->with('currPic', 'pci_selected');
+        return view('app' . '.' . $pci_selected)->with('currPic', $pci_selected);
+    }
+
+    public function slidePhoto($picNum = 0)
+    {
+        $adjustedPicNum = ($picNum == 1 ? 11 : $picNum - 1);
+        // adjustedPicNum = ($request->picNum == 1 ? 11 : $request->picNum - 1);
+        return view('app.home')->with('currPic', $adjustedPicNum);
     }
 }

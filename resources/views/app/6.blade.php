@@ -16,4 +16,5 @@
 <div class="picture_about">
     <img src="/img/6.png" alt="">
 </div>
+@include('layouts._back_to_home')
 @stop

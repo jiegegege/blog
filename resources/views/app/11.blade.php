@@ -85,4 +85,5 @@
     </div>
 
 </div>
+@include('layouts._back_to_home')
 @stop
