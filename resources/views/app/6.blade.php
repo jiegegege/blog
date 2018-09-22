@@ -14,7 +14,7 @@
     </h4>
 </div>
 <div class="picture_about">
-    <img src="/img/6.png" alt="">
+    <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/6.jpg?x-oss-process=style/webp" alt="">
 </div>
 @include('layouts._back_to_home')
 @stop

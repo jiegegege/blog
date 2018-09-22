@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
     <div class="picture_about">
-        <img src="/img/2.jpg" alt="">
+        <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/2.jpg?x-oss-process=style/webp" alt="">
     </div>
     @include('layouts._back_to_home')
 @stop
