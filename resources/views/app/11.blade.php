@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4" >
-            <img src="/img/laravel/laravel_01.jpg" style="width: 250px">
+            <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/laravel_01.jpg?x-oss-process=style/webp" style="width: 250px">
         </div>
         <div class="col-md-8">
             <h2>L01 Laravel 教程 - Web 开发实战入门 ( Laravel 5.5 )</h2>
@@ -33,13 +33,13 @@
         </div>
 
         <div class="col-md-4" >
-            <img src="/img/laravel/laravel_02.png" style="width: 250px">
+            <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/laravel_02.jpg?x-oss-process=style/webp" style="width: 250px">
         </div>
     </div>
     <hr style="border: solid 2px;">
     <div class="row">
         <div class="col-md-4" >
-            <img src="/img/laravel/laravel_03.jpg" style="width: 250px">
+            <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/laravel_03.jpg?x-oss-process=style/webp" style="width: 250px">
         </div>
         <div class="col-md-8">
             <h2>L03 Laravel 教程 - 实战构架 API 服务器</h2>
@@ -63,14 +63,14 @@
         </div>
 
         <div class="col-md-4" >
-            <img src="/img/laravel/laravel_04.jpg" style="width: 250px">
+            <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/laravel_04.jpg?x-oss-process=style/webp" style="width: 250px">
         </div>
     </div>
 
     <hr style="border: solid 2px;">
     <div class="row">
         <div class="col-md-4" >
-            <img src="/img/laravel/laravel_05.jpg" style="width: 250px">
+            <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/laravel_05.jpg?x-oss-process=style/webp" style="width: 250px">
         </div>
         <div class="col-md-8">
             <h2>L05 Laravel 教程 - 电商实战</h2>
