@@ -28,7 +28,7 @@ diff: 200 // 当前屏幕下多远处的图片开始延迟加载。默认两屏�
 });
 </script> -->
 
-<script>
+<!-- <script>
 function lazyContainer(searchNode) {
     $(searchNode).find('.active').find('img.lazy').each(function() {
        var imgSrc = $(this).attr('data-src');
@@ -44,7 +44,7 @@ function lazyContainer(searchNode) {
     });
 
     lazyContainer('#carousel-example-generic');
-</script>
+</script> -->
 
 <script>
     $(function(){
