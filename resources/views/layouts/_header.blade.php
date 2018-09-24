@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-          <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/superman.PNG?x-oss-process=style/webp"  width="55" height="40" alt="">
+          <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/superman.PNG!.webp"  width="55" height="40" alt="">
       </a>
     </div>
 

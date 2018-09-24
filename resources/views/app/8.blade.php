@@ -4,7 +4,7 @@
         <div class="row" style="padding-top: 60px; line-height: 20px;">
 
             <div class="col-md-5">
-                <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/1.jpg?x-oss-process=style/webp" style="width: 360px;" >
+                <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/1.jpg!.webp" style="width: 360px;" >
             </div>
             <div class="col-md-7">
                 <h2>古人云:“近朱者赤，近墨者黑”</h2>
