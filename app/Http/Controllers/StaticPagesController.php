@@ -8,7 +8,8 @@ class StaticPagesController extends Controller
 {
     public function home()
     {
-        return view('app.home');
+        // return view('app.home');
+        return view('app.neohome');
     }
 
     public function pic_one(Request $request)
