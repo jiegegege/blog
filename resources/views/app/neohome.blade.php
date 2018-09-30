@@ -53,7 +53,7 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
 .glyphicon-education{
 
     font-size:33px;
-    color:#bb890a;
+    color:#0dd3ac;
     position: relative;
     left: -15px;
 }
@@ -62,7 +62,7 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
     position: relative;
     left: 6px;
     font-size:32px;
-    color:#bb890a;
+    color:#0dd3ac;
 }
 .glyphicon-education:hover{
 	text-decoration: none;
@@ -73,6 +73,15 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
 }
 .site-main2{
 	margin-top: 6px;
+}
+div.info-text strong{
+	color: #0dd3ac;
+}
+#primary {
+    padding: 0 11.3% 0 0;
+}
+#content {
+    max-width: 1380px;
 }
 </style>
 </head>
@@ -93,7 +102,7 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
 
 		        <div class="top info-text">
 			        <div class="info-text">
-						<strong>Call us:9a311</strong>
+						<strong>联系我们: ismta@acenum.cn</strong>
 					</div>
 		        </div>
 
@@ -148,7 +157,7 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
 
 
 			<aside id="" class="widget">
-				<h2 class="widget-title">实验室环境</h2>
+				<h2 class="widget-title">实验室自然环境</h2>
 				<ul>
 					<li>
 						<a href=""></a>
@@ -157,7 +166,7 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
 			</aside>
 
 			<aside id="" class="widget">
-				<h2 class="widget-title">硬件成果展示</h2>
+				<h2 class="widget-title">学习资源</h2>
 				<ul id="">
 					<li class="">
 					<!-- <span class="comment-author-link">
@@ -169,7 +178,7 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
 			</aside>
 
 			<aside id="" class="widget">
-				<h2 class="widget-title">软件成果展示</h2>
+				<h2 class="widget-title">成果展示</h2>
 				<ul>
 					<li>
 						<a href=""></a>
@@ -202,7 +211,7 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
 		<div class="site-footer-bottom-bar">
 			<div class="site-container">
 				<div class="site-footer-bottom-bar-left">
-					<strong>&copy;2018 ISMTA实验室,Inc</strong>
+					<strong>&copy;2018 ISMTA实验室, Inc</strong>
 				</div>
 		        <div class="site-footer-bottom-bar-right">
 		        </div>
