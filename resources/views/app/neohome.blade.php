@@ -4,11 +4,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
 
 <meta http-equiv="refresh" content="3;url={{route('about')}}">
-=======
->>>>>>> 9c5c9872e6df3dce35ca82f3038c391f7b9a7e7f
 <!-- bootstrap -->
 <link rel="stylesheet" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 <!-- <script src="./lib/jquery-3.2.1.min.js"></script> -->
