@@ -24,7 +24,7 @@
 
 try {
     $sms->send(13428136726, [
-        'content'  => '【ISMTA实验室】亲，您好！有*订单，用户名：ismta.cn，手机号：* , 请尽快联系。',
+        'content'  => '【ISMTA实验室】亲，您好！有群聊订单，用户名：ismta.cn，手机号：* , 请尽快联系。',
     ]);
 } catch (\Overtrue\EasySms\Exceptions\NoGatewayAvailableException $exception) {
     $message = $exception->getException('yunpian')->getMessage();
