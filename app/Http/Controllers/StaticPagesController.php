@@ -24,8 +24,11 @@ class StaticPagesController extends Controller
         // adjustedPicNum = ($request->picNum == 1 ? 11 : $request->picNum - 1);
         return view('app.home')->with('currPic', $adjustedPicNum);
     }
+<<<<<<< HEAD
     public function about()
     {
         return view('app.about');
     }
+=======
+>>>>>>> 9c5c9872e6df3dce35ca82f3038c391f7b9a7e7f
 }
