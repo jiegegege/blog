@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta http-equiv="refresh" content="1;url={{route('about')}}">
+<meta http-equiv="refresh" content="10;url={{route('about')}}">
 <!-- bootstrap -->
 <link rel="stylesheet" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 <!-- <script src="./lib/jquery-3.2.1.min.js"></script> -->
