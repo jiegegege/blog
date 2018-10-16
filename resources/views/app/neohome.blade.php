@@ -99,7 +99,6 @@ div.info-text strong{
 		    </div>
 
 
-
 		    <div class="site-header-right ">
 
 		        <div class="top info-text">
@@ -109,8 +108,6 @@ div.info-text strong{
 		        </div>
 
 			</div>
-
-
 		</div>
 		<div class="clearboth"></div>
 	</div>
@@ -124,7 +121,7 @@ div.info-text strong{
 	<!-- 背景大图 -->
 	<div class="header-image-padder">
 		<div class="header-image" style="height: auto;">
-			<img src="./lib/wordpress/banner.jpg" alt="" width="1500" height="744">
+            <img src="/img/banner.jpg" alt="" width="1500" height="744">
 			<div class="opacity"></div>
 		</div>
 	</div>
@@ -134,10 +131,10 @@ div.info-text strong{
 
 		<div id="primary" class="content-area ">
 			<main id="main" class="site-main" role="main">
-	      		<img src="./lib/images/body1.jpg" class="img-rounded img-thumbnail">
+                <img src="/img/body1.jpg" class="img-rounded img-thumbnail">
 			</main><!-- #main  -->
 			<main id="main" class="site-main site-main2" role="main">
-	      		<img src="./lib/images/body2.jpg" class="img-rounded img-thumbnail">
+	      		<img src="/img/body2.jpg" class="img-rounded img-thumbnail">
 			</main><!-- #main -->
 		</div><!-- #primary -->
 
@@ -212,12 +209,15 @@ div.info-text strong{
 
 		<div class="site-footer-bottom-bar">
 			<div class="site-container">
+
 				<div class="site-footer-bottom-bar-left">
 					<strong>&copy;2018 ISMTA实验室, Inc</strong>
 				</div>
+
 		        <div class="site-footer-bottom-bar-right">
                     <a href="{{ route('about') }}"><strong>关于我们</strong></a>
 		        </div>
+
 		    </div>
 	        <div class="clearboth"></div>
 		</div>
