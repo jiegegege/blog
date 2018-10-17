@@ -5,7 +5,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta http-equiv="refresh" content="1;url={{route('about')}}">
 <!-- bootstrap -->
 <link rel="stylesheet" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 <!-- <script src="./lib/jquery-3.2.1.min.js"></script> -->
@@ -99,7 +98,10 @@ div.info-text strong{
 		    </div>
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9d57081b65c3dd246e1b1affa0611a6a3f1bf3bf
 		    <div class="site-header-right ">
 
 		        <div class="top info-text">
@@ -109,8 +111,11 @@ div.info-text strong{
 		        </div>
 
 			</div>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9d57081b65c3dd246e1b1affa0611a6a3f1bf3bf
 		</div>
 		<div class="clearboth"></div>
 	</div>
@@ -124,7 +129,11 @@ div.info-text strong{
 	<!-- 背景大图 -->
 	<div class="header-image-padder">
 		<div class="header-image" style="height: auto;">
+<<<<<<< HEAD
 			<img src="./lib/wordpress/banner.jpg" alt="" width="1500" height="744">
+=======
+            <img src="/img/banner.jpg" alt="" width="1500" height="744">
+>>>>>>> 9d57081b65c3dd246e1b1affa0611a6a3f1bf3bf
 			<div class="opacity"></div>
 		</div>
 	</div>
@@ -134,10 +143,17 @@ div.info-text strong{
 
 		<div id="primary" class="content-area ">
 			<main id="main" class="site-main" role="main">
+<<<<<<< HEAD
 	      		<img src="./lib/images/body1.jpg" class="img-rounded img-thumbnail">
 			</main><!-- #main  -->
 			<main id="main" class="site-main site-main2" role="main">
 	      		<img src="./lib/images/body2.jpg" class="img-rounded img-thumbnail">
+=======
+                <img src="/img/body1.jpg" class="img-rounded img-thumbnail">
+			</main><!-- #main  -->
+			<main id="main" class="site-main site-main2" role="main">
+	      		<img src="/img/body2.jpg" class="img-rounded img-thumbnail">
+>>>>>>> 9d57081b65c3dd246e1b1affa0611a6a3f1bf3bf
 			</main><!-- #main -->
 		</div><!-- #primary -->
 
@@ -212,12 +228,24 @@ div.info-text strong{
 
 		<div class="site-footer-bottom-bar">
 			<div class="site-container">
+<<<<<<< HEAD
 				<div class="site-footer-bottom-bar-left">
 					<strong>&copy;2018 ISMTA实验室, Inc</strong>
 				</div>
 		        <div class="site-footer-bottom-bar-right">
                     <a href="{{ route('about') }}"><strong>关于我们</strong></a>
 		        </div>
+=======
+
+				<div class="site-footer-bottom-bar-left">
+					<strong>&copy;2018 ISMTA实验室, Inc</strong>
+				</div>
+
+		        <div class="site-footer-bottom-bar-right">
+                    <a href="{{ route('about') }}"><strong>关于我们</strong></a>
+		        </div>
+
+>>>>>>> 9d57081b65c3dd246e1b1affa0611a6a3f1bf3bf
 		    </div>
 	        <div class="clearboth"></div>
 		</div>
