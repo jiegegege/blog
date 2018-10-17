@@ -1,20 +1,17 @@
-<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" style="background-color:#001230">
   <div class="container">
-    <div class="navbar-header">
+    <div class="navbar-header" >
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
-          <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/superman.PNG!.webp"  width="55" height="40" alt="">
-      </a>
     </div>
 
-    <div class="collapse navbar-collapse" id="bs-example">
+    <div class="collapse navbar-collapse" id="bs-example" >
       <ul class="nav navbar-nav">
-            <li><a href="{{ route('home') }}" class="brand-bar glyphicon glyphicon-home">ISMTA实验室</a></li>
+            <li><a style="color: #0dd3ac" href="{{ route('home') }}" class="brand-bar glyphicon glyphicon-home">ISMTA实验室</a></li>
       </ul>
     </div>
   </div>
