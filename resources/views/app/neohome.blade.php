@@ -123,8 +123,6 @@ div.info-text strong{
     <div class="header-image-padder">
         <div class="header-image" style="height: auto;">
 
-            <img src="./lib/wordpress/banner.jpg" alt="" width="1500" height="744">
-
             <img src="/img/banner.jpg" alt="" width="1500" height="744">
 
             <div class="opacity"></div>
@@ -137,10 +135,10 @@ div.info-text strong{
         <div id="primary" class="content-area ">
             <main id="main" class="site-main" role="main">
 
-                <img src="./lib/images/body1.jpg" class="img-rounded img-thumbnail">
+                <img src="img/body1.jpg" class="img-rounded img-thumbnail">
             </main><!-- #main  -->
             <main id="main" class="site-main site-main2" role="main">
-                <img src="./lib/images/body2.jpg" class="img-rounded img-thumbnail">
+                <img src="img/body2.jpg" class="img-rounded img-thumbnail">
             </main><!-- #main -->
         </div><!-- #primary -->
 

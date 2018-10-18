@@ -10,7 +10,7 @@
 </head>
 <body>
     @include('layouts._header')
-    <img style="width: 100%; height:100%" src="lib/images/about.png">
+    <img style="width: 100%; height:100%" src="img/background.jpg">
     @yield('content')
 
 <script src="/js/app.js"></script>
