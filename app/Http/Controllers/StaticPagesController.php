@@ -29,4 +29,9 @@ class StaticPagesController extends Controller
     {
         return view('app.about');
     }
+
+    public function activity()
+    {
+        return view('app.activity1');
+    }
 }

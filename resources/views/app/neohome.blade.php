@@ -94,7 +94,8 @@ div.info-text strong{
         <div class="site-container">
 
             <div class="branding">
-                    <a href="" class="brand-bar glyphicon glyphicon-education" marked="1" ></a><span class="mytitle">ISMTA实验室</span>
+                    <a href="" class="brand-bar glyphicon glyphicon-education" marked="1" ></a>
+                    <span class="mytitle">ISMTA实验室</span>
             </div>
 
 

@@ -8,43 +8,68 @@
     <link rel="shortcut icon" href="/img/zhandiantubiao.ico" type="image/x-icon">
     <script src="http://ismta.oss-cn-shenzhen.aliyuncs.com/webpjs.min.js"></script>
 </head>
-<body>
-    @include('layouts._header')
-    <img style="width: 100%; height:100%" src="img/background.jpg">
-    @yield('content')
-
-<script src="/js/app.js"></script>
-
-<!-- <script src="http://a.tbcdn.cn/kissy/1.0.0/build/imglazyload/imglazyload-min.js" type="text/javascript"></script>
-<script src="http://kissy.googlecode.com/svn/trunk/third-party/yui2/yahoo-dom-event/yahoo-dom-event.js" type="text/javascript"></script>
-<script type="text/javascript">
-
-KISSY.ImageLazyload({
-
-mod: "manual", // 延迟模式。默认为 auto
-
-diff: 200 // 当前屏幕下多远处的图片开始延迟加载。默认两屏外的图片才延迟加载
-
-});
-</script> -->
-
-<!-- <script>
-function lazyContainer(searchNode) {
-    $(searchNode).find('.active').find('img.lazy').each(function() {
-       var imgSrc = $(this).attr('data-src');
-       if (imgSrc) {
-           $(this).attr('src',imgSrc);
-           $(this).attr('data-src','');
-       }
-    });
+<style type="text/css">
+    .bg{
+        background: url("img/background1.jpg");
+        width: 100%;
+        height: 900px;
     }
 
-    $('#carousel-example-generic').bind('slid.bs.carousel', function() {
-    lazyContainer(this);
-    });
+    #leftDiv{
+        margin-left: 150px;
+        margin-top: 50px;
+        width: 12%;
+        height: 100%;
+        float: left;
+    }
 
-    lazyContainer('#carousel-example-generic');
-</script> -->
+    #rightDiv{
+        margin-top: 50px;
+        width: 50%;
+        height: 100%;
+        float:left;
+    }
+
+    a{
+        color:#0dd3ac;
+        font-size: 17px;
+    }
+
+
+</style>
+<body>
+    @include('layouts._header')
+
+    @yield('content')
+    <div class="bg">
+       <div id=leftDiv>
+            <ul class="nav nav-pills nav-stacked">
+                <li><a onmouseover="lishi()" href="#">实验室发展历史</a></li>
+                <br>
+                <li><a onmouseover="huodong()" href="#">实验室活动开展</a></li>
+            </ul>
+       </div>
+       <div id=rightDiv style="visibility: hidden;">
+            @include('layouts._activity')
+       </div>
+    </div>
+
+
+<script src="/js/app.js"></script>
+<script type="/lib/led/js/vue.min.js"></script>
+<script type="text/javascript">
+    function huodong(){
+        var rightDiv=document.getElementById('rightDiv');
+        rightDiv.style.visibility='visible';
+    }
+
+    function lishi(){
+        var rightDiv=document.getElementById('rightDiv');
+        rightDiv.style.visibility='hidden';
+    }
+
+</script>
+
 
 <script>
     $(function(){

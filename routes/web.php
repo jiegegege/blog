@@ -8,3 +8,5 @@ Route::get('/', 'StaticPagesController@home')->name('home');
 // Route::get('picture/{pic}', 'StaticPagesController@pic_one')->name('picture');
 
 Route::get('about', 'StaticPagesController@about')->name('about');
+
+Route::get('activity', 'StaticPagesController@activity')->name('activity');
