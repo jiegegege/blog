@@ -12,3 +12,4 @@ yarn-error.log
 .env
 /public/img
 /public/video
+/public/mytest.json
