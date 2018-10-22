@@ -1,0 +1,89 @@
+.site-footer-bottom-bar-left {
+        float: left;
+        width: 50%;
+        padding-right: 2%;
+    }
+
+    .site-footer-bottom-bar-right {
+        float: right;
+        text-align: right;
+        width: 50%;
+        padding-left: 2%;
+    }
+
+    .site-footer {
+        background-color: #F4F4F4;
+    }
+    .site-footer {
+        position: relative;
+    }
+    footer{
+        display: block;
+    }
+
+
+
+    .site-footer-bottom-bar{
+        background-color: #001230;
+    }
+    .site-footer-bottom-bar {
+        color: #FFFFFF;
+        padding: 28px 0 26px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .site-container, .main-menu-container {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .site-container {
+        max-width: 1140px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+
+    .clearboth {
+        clear: both;
+    }
+
+    strong{
+        font-weight: bold;
+        color: #fff;
+        border: 0;
+        font-family: inherit;
+        font-size: 100%;
+        font-style: inherit;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        vertical-align: baseline;
+    }
+
+    .site-footer-bottom-bar-right{
+        border: 0;
+        font-family: inherit;
+        font-size: 100%;
+        font-style: inherit;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        vertical-align: baseline;
+    }
+
+    .site-footer-bottom-bar-left{
+
+        border: 0;
+        font-family: inherit;
+        font-size: 100%;
+        font-style: inherit;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        vertical-align: baseline;
+    }
+
+    .site-footer {
+        position: relative;
+    }

@@ -11,7 +11,9 @@
 
     <div class="collapse navbar-collapse" id="bs-example" >
       <ul class="nav navbar-nav">
-            <li><a style="color: #0dd3ac" href="{{ route('home') }}" class="brand-bar glyphicon glyphicon-home">ISMTA实验室</a></li>
+            <li>
+                <a style="color: #0dd3ac" href="{{ route('home') }}" class="brand-bar glyphicon glyphicon-home">ISMTA实验室</a>
+            </li>
       </ul>
     </div>
   </div>

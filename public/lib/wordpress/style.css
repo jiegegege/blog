@@ -83,7 +83,7 @@ html {
 	box-sizing: inherit;
 }
 
-/* Eliminates the flicker caused in the Top Bar elements when the transform animations are applied to the slider control buttons */ 
+/* Eliminates the flicker caused in the Top Bar elements when the transform animations are applied to the slider control buttons */
 body {
 	-webkit-backface-visibility: hidden;
 	/*
@@ -151,7 +151,7 @@ q {
 
 /*
 a:focus {
-	
+
 }
 */
 
@@ -434,7 +434,7 @@ input[type="submit"],
 div.wpforms-container form.wpforms-form input[type=submit],
 div.wpforms-container form.wpforms-form button[type=submit],
 div.wpforms-container form.wpforms-form .wpforms-page-button {
-	border: none !important;	
+	border: none !important;
 	color: #FFF;
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
 	font-size: 15px;
@@ -444,7 +444,7 @@ div.wpforms-container form.wpforms-form .wpforms-page-button {
 	padding: 13px 29px;
 	min-width: 120px;
 	max-width: 100%;
-	
+
     -webkit-transition: background-color 0.2s ease 0s;
      -moz-transition: background-color 0.2s ease 0s;
       -ms-transition: background-color 0.2s ease 0s;
@@ -469,7 +469,7 @@ a.button:hover,
 .header-image .overlay-container .overlay .opacity a.button,
 .header-image .overlay-container .overlay .opacity button,
 .header-image .overlay-container .overlay .opacity input[type="button"] {
-	border: none;	
+	border: none;
 	color: #FFF;
 	cursor: pointer;
 	font-size: 15px;
@@ -598,12 +598,12 @@ a {
 }
 
 a:visited {
-	
+
 }
 
 a:hover,
 a:active {
-	
+
 }
 
 /*--------------------------------------------------------------
@@ -616,7 +616,7 @@ a:active {
 	/*height: 58px;*/
 	width: 100%;
 	font-size: 0px;
-	
+
     -webkit-transition: background-color 0.2s ease 0s;
      -moz-transition: background-color 0.2s ease 0s;
       -ms-transition: background-color 0.2s ease 0s;
@@ -671,7 +671,7 @@ a:active {
 	background-color: transparent;
 	padding: 0;
 	display: table-cell;
-	vertical-align: bottom;	
+	vertical-align: bottom;
 }
 
 .site-header.left-aligned .main-navigation.inline.rollover-background-color {
@@ -686,7 +686,7 @@ a:active {
 /*
 .main-navigation.left-aligned .main-navigation-inner {
 	float: left;
-	display: inline-block; 	
+	display: inline-block;
 }
 */
 
@@ -792,7 +792,7 @@ a:active {
 	letter-spacing: 1px;
 	white-space: nowrap;
 	text-align: center;
-    
+
     -webkit-transition: color 0.2s ease 0s, background-color 0.2s ease 0s;
      -moz-transition: color 0.2s ease 0s, background-color 0.2s ease 0s;
       -ms-transition: color 0.2s ease 0s, background-color 0.2s ease 0s;
@@ -820,7 +820,7 @@ a:active {
 .main-navigation a:hover {
 	text-decoration: none;
 
-	/* TODO: Remove this when adding a theme setting to set the rollover color */  
+	/* TODO: Remove this when adding a theme setting to set the rollover color */
 	color: inherit;
 }
 
@@ -909,7 +909,7 @@ a:active {
 }
 
 .main-navigation ul ul a:hover {
-	
+
 }
 
 .main-navigation ul li:hover > ul {
@@ -1089,7 +1089,7 @@ input[type="search" i]::-webkit-search-cancel-button {
 }
 .menu-dropdown-btn:hover .otb-fa {
 	font-weight: 700 !important;
-	
+
 }
 .main-navigation li.current-menu-item > .menu-dropdown-btn,
 .main-navigation li.current_page_item > .menu-dropdown-btn,
@@ -1328,7 +1328,7 @@ body.rounded-corners ul.products li.product a.button.product_type_simple {
 #page {
     position: relative;
     right: 0;
-    
+
     -webkit-transition: right 0.4s ease 0s;
      -moz-transition: right 0.4s ease 0s;
       -ms-transition: right 0.4s ease 0s;
@@ -1466,7 +1466,7 @@ body.rounded-corners ul.products li.product a.button.product_type_simple {
 	display: inline-block;
 	word-break: break-word;
 	font-weight: 700;
-	
+
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -1629,9 +1629,9 @@ NOT SURE WHAT THIS WAS FOR SO IT MIGHT NEED TO BE RE-ADDED IF THINGS BREAK
 	display: block;
 	*/
 	left: 0;
-	right: 0;	
+	right: 0;
 	width: 60%;
-	padding: 3.5%;	
+	padding: 3.5%;
 }
 
 /* This must only apply when the left / right opacities are visible */
@@ -1758,7 +1758,7 @@ NOT SURE WHAT THIS WAS FOR SO IT MIGHT NEED TO BE RE-ADDED IF THINGS BREAK
 ul.sections {
 	padding: 0;
 	margin: 0;
-	list-style: none;	
+	list-style: none;
 }
 ul.sections > li {
 	display: inline-block;
@@ -1791,7 +1791,7 @@ span.wpcf7-not-valid-tip {
 	color: #ad2727;
 }
 div.wpcf7-validation-errors {
-	border: 2px solid #ad2727;	
+	border: 2px solid #ad2727;
 }
 
 #googlemap {
@@ -1831,10 +1831,10 @@ div.wpcf7-validation-errors {
     overflow: hidden;
     background: url(library/images/loader.gif) center center no-repeat;
 }
-.slider-container.default.loading .slider { 
+.slider-container.default.loading .slider {
     visibility: hidden;
 }
-.slider-container.default .slider { 
+.slider-container.default .slider {
     padding: 0;
 	margin: 0;
 	list-style: none;
@@ -1876,7 +1876,7 @@ div.wpcf7-validation-errors {
 .slider-container.default .slider .slide .overlay-container .opacity-right-container {
 	width: calc( 50% - 570px );
 	height: 100%;
-	position: relative; 
+	position: relative;
 }
 */
 
@@ -1909,13 +1909,13 @@ div.wpcf7-validation-errors {
 	height: auto;
 	top: 50%;
 	transform: translateY(-50%);
-			
+
 	font-size: 24px;
 
 	left: 0;
 	right: 0;
 	width: 60%;
-	padding: 3.5%;	
+	padding: 3.5%;
 }
 
 /* This must only apply when the left / right opacities are visible */
@@ -2088,7 +2088,7 @@ div.wpcf7-validation-errors {
 	border: 1px solid #FFFFFF;
 	color: #FFFFFF;
 	will-change: opacity;
-	
+
 	/* This prevents artifacts from being left on the screen when the buttons scale */
 	outline: 1px solid transparent;
     -webkit-transition: all 0.2s ease 0s;
@@ -2151,7 +2151,7 @@ div.wpcf7-validation-errors {
 }
 
 .site-header .site-header-right div .social-links {
-	display: inline-block;	
+	display: inline-block;
 }
 /*
 .site-header .social-links {
@@ -2199,7 +2199,7 @@ div.wpcf7-validation-errors {
      -moz-transition: background-color 0.2s ease 0s;
       -ms-transition: background-color 0.2s ease 0s;
        -o-transition: background-color 0.2s ease 0s;
-          transition: background-color 0.2s ease 0s;	
+          transition: background-color 0.2s ease 0s;
 }
 .side-aligned-social-links .social-links li a,
 .side-aligned-social-links .social-links li .otb-fa {
@@ -2309,7 +2309,7 @@ div.wpcf7-validation-errors {
      display: block;
      height: 2px;
      position: relative;
-     width: 38px;	
+     width: 38px;
 }
 
 .site-footer-widgets .site-container ul li {
@@ -2327,7 +2327,7 @@ div.wpcf7-validation-errors {
 .site-footer-widgets .site-container > ul:after {
     content: '';
     width: 100%;
-	vertical-align: top; 
+	vertical-align: top;
     display: inline-block;
     font-size: 0;
     line-height: 0;
@@ -2376,7 +2376,7 @@ div.wpcf7-validation-errors {
      display: block;
      height: 2px;
      position: relative;
-     width: 38px;	
+     width: 38px;
 }
 
 
@@ -2455,7 +2455,7 @@ div.wpcf7-validation-errors {
 }
 .site-footer-bottom-bar-right ul li:last-child a {
     padding: 0 0 0 7px;
-    
+
 }
 
 /*--------------------------------------------------------------
@@ -2573,7 +2573,7 @@ div.wpcf7-validation-errors {
      display: block;
      height: 2px;
      position: relative;
-     width: 38px;	
+     width: 38px;
 }
 
 .widget-area .widget ul {
@@ -2622,7 +2622,7 @@ div.wpcf7-validation-errors {
 .archive-container .hentry,
 .search-results article {
 	margin: 0 0 50px;
-} 
+}
 
 .archive-container .hentry:last-of-type,
 .search-results article:last-of-type {
@@ -2702,7 +2702,7 @@ div.wpcf7-validation-errors {
 	margin-top: 50px;
 }
 
-/* Content top padding when the home page is the blog posts */ 
+/* Content top padding when the home page is the blog posts */
 .home.blog .content-container {
 	padding-top: 23px !important;
 }
@@ -2996,7 +2996,7 @@ article .author-bio .description {
 article .author-bio .social-links {
 	clear: left;
 	float: left;
-	
+
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -3028,7 +3028,7 @@ article .author-bio .social-links .google-plus .otb-fa {
 }
 
 .comments-area {
-    
+
 }
 
 .comments-title {
@@ -3048,7 +3048,7 @@ article .author-bio .social-links .google-plus .otb-fa {
 }
 
 .comment {
-    
+
 }
 
 .comment-author {
@@ -3088,7 +3088,7 @@ article .author-bio .social-links .google-plus .otb-fa {
 .comment-content .fn,
 .comment-content .says {
 	display: inline-block;
-	margin: 0 0 15px 0; 
+	margin: 0 0 15px 0;
 }
 
 .comment-content p {
@@ -3528,7 +3528,7 @@ object {
 	.widget_sow-headline .center-for-mobile h6.sow-headline {
 		text-align: center;
 	}
-	
+
 	.widget_sow-button .center-for-mobile .ow-button-base {
 		text-align: center;
 	}
@@ -3580,7 +3580,7 @@ div.wpforms-container form.wpforms-form label.wpforms-error {
 .site-content .rpwe-block li {
 	width: 30.5%;
 	margin-right: 0;
-	/*padding: 0 2% 0 2%;*/ 
+	/*padding: 0 2% 0 2%;*/
 	float: left;
 	text-align: center;
 	background: #FFFFFF;
@@ -3716,14 +3716,14 @@ body.mobile-device .slider-container.default .pagination {
 		padding: 0;
 		text-align: center;
 	}
-	
+
 	.site-footer-bottom-bar .site-footer-bottom-bar-right {
 		margin-top: 7px;
 	}
-	
+
 	.site-footer-bottom-bar-right a {
 		padding: 0 !important;
-	}	
+	}
 }
 
 /* Solidify the navigation menu */
@@ -3756,18 +3756,18 @@ body.mobile-device .slider-container.default .pagination {
     	text-align: center;
 	    cursor: pointer;
 	}
-	
+
 	.site-header-right .header-menu-button {
 		padding: 8px 10px 8px 10px !important;
 		margin: 8px 0 9px 0;
 	    display: inline-block;
 	}
-	
+
 	.header-menu-button .otb-fa.otb-fa-bars {
     	font-size: 21px;
     	font-size: 28px;
 	}
-	
+
 	/* Menu close button */
     .main-menu-close {
         display: block;
@@ -3784,7 +3784,7 @@ body.mobile-device .slider-container.default .pagination {
     	width: 36px;
         line-height: 32px;
         cursor: pointer;
-    	
+
 	    -webkit-transition: all 0.2s ease 0s;
 	     -moz-transition: all 0.2s ease 0s;
 	      -ms-transition: all 0.2s ease 0s;
@@ -3795,7 +3795,7 @@ body.mobile-device .slider-container.default .pagination {
 	.main-menu-close:hover {
 		background-color: rgba(0, 0, 0, 0.3);
 	}
-	/* 
+	/*
     .main-menu-close:hover .otb-fa {
     	font-weight: 700 !important;
 	}
@@ -3804,14 +3804,14 @@ body.mobile-device .slider-container.default .pagination {
         position: relative;
         left: -4px;
     }
-	
+
 	/* Remove the rollover functionality from the desktop menu */
     .main-navigation ul {
         display: block;
 		visibility: visible !important;
 		opacity: 1 !important;
     }
-	
+
 	.main-navigation #main-menu.animate {
         -webkit-transition: right 0.4s ease 0s;
         -moz-transition: right 0.4s ease 0s;
@@ -3819,12 +3819,12 @@ body.mobile-device .slider-container.default .pagination {
         -o-transition: right 0.4s ease 0s;
         transition: right 0.4s ease 0s;
 	}
-	
+
     /* Mobile Menu Font Color */
     .main-navigation #main-menu,
 	.main-navigation .search-button .otb-fa,
 	.menu-dropdown-btn,
-    .open-page-item .otb-fa-angle-down,	
+    .open-page-item .otb-fa-angle-down,
     .main-menu-close,
 	.main-navigation a,
     .main-navigation li a,
@@ -3848,27 +3848,27 @@ body.mobile-device .slider-container.default .pagination {
         height: 100%;
         overflow: auto;
     }
-    
+
     .main-navigation .main-navigation-inner {
     	display: block;
     }
-	
+
 	.main-navigation .menu > ul .indicator,
 	.main-navigation ul.menu .indicator,
 	.main-navigation .search-button .indicator {
 		display: none;
 	}
-	
+
 	.main-navigation .search-button {
 		display: block !important;
 		padding: 0 !important;
 		float: none !important;
 	}
-	
+
 	.dgwt-wcas-search-wrapp {
 		min-width: 0 !important;
 	}
-	
+
 	.main-navigation .search-button.plugin {
 		padding: 10px 20px 9px 18px !important;
 	}
@@ -3876,23 +3876,23 @@ body.mobile-device .slider-container.default .pagination {
 	.main-navigation.rollover-underline ul.menu > li:last-child.search-button.plugin {
 		padding-right: 20px !important;
 	}
-	
+
 	.main-navigation ul ul {
 		left: 0 !important;
 		transform: none !important;
 		width: auto;
 	}
-    
+
 	.main-navigation.centered-submenu ul ul {
 		-webkit-transform: none;
 	}
-	
+
 	#main-menu .menu > ul,
     #main-menu ul.menu {
     	float: none;
 		display: block;
 	}
-		
+
 	.main-navigation li {
         display: block;
         float: none !important;
@@ -3900,7 +3900,7 @@ body.mobile-device .slider-container.default .pagination {
 		padding: 0 !important;
 		border: none !important;
     }
-	
+
 	.main-navigation .menu > ul > li > a,
 	.main-navigation ul.menu > li > a {
         white-space: normal !important;
@@ -3915,9 +3915,9 @@ body.mobile-device .slider-container.default .pagination {
     	border-bottom-color: #FFFFFF;
 	}
     #main-menu li a:hover {
-    	background-color: rgba(0, 0, 0, 0.2); 
+    	background-color: rgba(0, 0, 0, 0.2);
   	}
-  	
+
   	.main-navigation ul ul a {
     	text-transform: none;
 		white-space: normal !important;
@@ -3931,7 +3931,7 @@ body.mobile-device .slider-container.default .pagination {
         padding: 6px 30px 6px 30px !important;
         width: auto;
     }
-	
+
     .main-navigation ul ul ul li a,
     .main-navigation.rollover-background-color ul ul ul li a,
 	.site-header .site-header-right .navigation-menu .main-navigation ul ul ul li a,
@@ -3976,7 +3976,7 @@ body.mobile-device .slider-container.default .pagination {
     .open-page-item .otb-fa-angle-down {
     	font-weight: 700 !important;
     }
-    
+
     /* 1st level selected item */
     #main-menu a:hover,
 	#main-menu li.current-menu-item > a,
@@ -3997,7 +3997,7 @@ body.mobile-device .slider-container.default .pagination {
 	#main-menu ul ul li.current_page_ancestor > a {
 		background-color: rgba(0, 0, 0, 0.2);
 	}
-	
+
 	/* 3rd level selected item */
 	#main-menu ul ul ul li.current-menu-item > a,
 	#main-menu ul ul ul li.current_page_item > a,
@@ -4007,31 +4007,31 @@ body.mobile-device .slider-container.default .pagination {
 	#main-menu ul ul ul li.current_page_ancestor > a {
 		background-color: rgba(0, 0, 0, 0.2);
 	}
-	
+
  	.search-slidedown {
 		margin-top: 10px;
     	position: relative;
     	top: 0;
     }
-    	
+
     .main-navigation .search-slidedown .search-block {
 		left: 18px !important;
 		width: 200px !important;
     	margin-left: 0 !important;
 	}
-	
+
 	.main-navigation .search-slidedown .search-block label {
-    	display: block;	
+    	display: block;
     }
-    	
+
 	.main-navigation .search-slidedown .search-block .search-field {
     	width: 100%;
 	}
-    	
+
 	.slider-placeholder {
 		display: none;
 	}
-	
+
 }
 
 @media only screen and (max-width: 960px) {
@@ -4065,20 +4065,20 @@ body.mobile-device .slider-container.default .pagination {
         width: 100% !important;
         text-align: center;
     }
-    
+
     /* Adjust the font sizes of the header elements */
     .site-header .site-top-bar ul.social-links li a,
     .site-header .site-logo-area ul.social-links li a {
 		font-size: 16px;
     }
-    
+
     .site-top-bar,
     .site-header .branding .description,
     .site-header .shop-links .account-link,
     .site-header .shop-links .header-cart {
 		font-size: 13px;
     }
-    
+
     .site-header .site-top-bar .site-container div .info-text,
     .site-header .site-top-bar .site-container div .shop-links,
     .site-header .site-top-bar .site-container div .custom-menu,
@@ -4092,18 +4092,18 @@ body.mobile-device .slider-container.default .pagination {
 		margin-top: 0 !important;
 		margin-bottom: 0 !important;
     }
-    
-    
+
+
     .site-header.scale-logo .branding,
     .site-header.scale-logo .branding .title,
     .site-header.scale-logo .branding .description{
 		transform-origin: 50% 50%;
 		-ms-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
-	
+
     	transform: scale(0.75);
     }
-    
+
     .site-header-right {
         float: none !important;
         width: 100% !important;
@@ -4113,8 +4113,8 @@ body.mobile-device .slider-container.default .pagination {
         min-height: 40px !important;
         */
     }
-    
-	.site-header .site-logo-area .info-text { 
+
+	.site-header .site-logo-area .info-text {
 		font-size: 13px;
 	}
 
@@ -4128,7 +4128,7 @@ body.mobile-device .slider-container.default .pagination {
 	.site-header .site-header-right ul.menu {
 		float: none;
 		margin-bottom: 0 !important;
-	}	
+	}
 	.site-header-right .top .header-cart {
 		padding-bottom: 0;
 	}
@@ -4150,27 +4150,27 @@ body.mobile-device .slider-container.default .pagination {
 	}
 	.site-header-right.bottom-empty .top {
 		margin-bottom: 15px;
-	}	
+	}
 
 	.site-header-right.top-empty.bottom-empty {
 		display: none;
-	}	
-	
+	}
+
 	.site-header-right .header-menu-button {
 		margin: 8px 0 0 0 !important;
 	}
-	
+
 	.site-header.left-aligned .main-navigation.inline {
 		display: block;
 	}
-	
+
 	.social-links {
 		display: inline-block;
     	float: none;
     	text-align: center;
     	margin: 0;
     }
-        
+
     .content-area {
         width: 100% !important;
         float: none !important;
@@ -4192,12 +4192,12 @@ body.mobile-device .slider-container.default .pagination {
         padding: 30px 0 0;
         margin: 10px 0 0;
     }
-    
+
     .widget-area .widget .search-field {
     	width: 78%;
     	max-width: 200px;
 	}
-	
+
 	.site-footer-widgets .site-container,
     .site-footer-widgets .site-container .widgets-container {
         display: block;
@@ -4244,12 +4244,12 @@ body.mobile-device .slider-container.default .pagination {
     .search-block .search-field {
     	width: 178px;
     }
-    
+
     .content-area {
         width: 100%;
         float: none;
     }
-    
+
     .widget-area {
         width: 100%;
         float: none;
@@ -4281,7 +4281,7 @@ body.custom-background .content-container {
 
 .site-header .site-logo-area {
 	background-color: #FFFFFF;
-	
+
     -webkit-transition: background-color 0.2s ease 0s;
      -moz-transition: background-color 0.2s ease 0s;
       -ms-transition: background-color 0.2s ease 0s;
@@ -4440,7 +4440,7 @@ div.wpforms-container form.wpforms-form button[type=submit],
 div.wpforms-container form.wpforms-form .wpforms-page-button,
 .site-footer-bottom-bar,
 .citylogic-page-builders-use-theme-styles .testimonials .sow-slider-base .sow-slide-nav {
-    background-color: #0082cd;
+    background-color: #001230;
 }
 
 .woocommerce .woocommerce-info,
@@ -4771,20 +4771,20 @@ textarea,
 
 /* Site Logo Area Solid Font Color */
 .site-header .branding .description,
-.site-header .site-header-right, 
+.site-header .site-header-right,
 .site-header .site-header-right a {
 	color: #5A5A5A;
 }
 
 .site-header.forced-solid .branding .description,
-.site-header.forced-solid .site-header-right, 
+.site-header.forced-solid .site-header-right,
 .site-header.forced-solid .site-header-right a:not(:hover) {
 	color: #5A5A5A !important;
 }
 
 /* Site Logo Area Transparent Font Color */
 .site-header.transparent .branding .description,
-.site-header.transparent .site-header-right, 
+.site-header.transparent .site-header-right,
 .site-header.transparent .site-header-right a {
 	color: #FFFFFF;
 }
