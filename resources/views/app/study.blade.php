@@ -1,5 +1,3 @@
-@extends('layouts.default')
-@section('content')
 <div class="container">
     <div class="row">
         <div class="col-md-4" >
@@ -80,10 +78,5 @@
     <h4>中事务操作（Transaction）、支付接口调试、订单流水号生成、预加载与延迟预加载、事件和监听器、MailHog 调试邮件发送、Service </h4>
     <h4>模式、自定义验证器等。</h4>
         </div>
-
-
     </div>
-
 </div>
-@include('layouts._back_to_home')
-@stop

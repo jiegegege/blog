@@ -1233,13 +1233,13 @@ ul.no-bullets {
 --------------------------------------------------------------*/
 
 .content-area {
-	width: 77.8%;
+	width: 70%;
 	float: left;
 	padding: 0 4.3% 0 0;
 }
 
 .widget-area {
-	width: 22.2%;
+	width: 30%;
 	float: left;
 	/*padding: 0 0 0 2%;*/
 	padding: 0;
@@ -1259,8 +1259,8 @@ body.full-width .widget-area {
 }
 
 .home .widget-area {
-	padding-top: 22px !important;
-	padding-top: 10px !important;
+	/*padding-top: 22px !important;
+	padding-top: 10px !important;*/
 }
 
 .page-template-template-left-primary-sidebar .content-area,
@@ -2673,13 +2673,13 @@ div.wpcf7-validation-errors {
 /* Content top padding in general */
 .content-container {
 	position: relative;
-	padding-top: 21px;
+	padding-top: 0px;
 }
 
 /* Content top padding when theres is a slider or header image */
-.content-container.extra-padded {
+/*.content-container.extra-padded {
 	padding-top: 46px;
-}
+}*/
 
 /* Content top padding when the page title is in the header image */
 .content-container.page-title-in-header-image {
@@ -2687,9 +2687,9 @@ div.wpcf7-validation-errors {
 }
 
 /* Content top padding for the homepage */
-.home .content-container {
+/*.home .content-container {
 	padding-top: 46px !important;
-}
+}*/
 
 /* Content top padding for the product page sans breadcrumbs */
 .single-product .content-container {
@@ -2703,9 +2703,9 @@ div.wpcf7-validation-errors {
 }
 
 /* Content top padding when the home page is the blog posts */
-.home.blog .content-container {
+/*.home.blog .content-container {
 	padding-top: 23px !important;
-}
+}*/
 .page-template-template-full-width-no-page-title .content-container,
 .page-template-template-left-primary-sidebar-no-page-title .content-container,
 .page-template-template-right-primary-sidebar-no-page-title .content-container {
@@ -4917,6 +4917,3 @@ textarea,
 	background-color: rgba(255, 255, 255, 0);
 }
 
-.home.blog .content-container {
-    padding-top: 0px;
-}

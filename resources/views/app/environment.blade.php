@@ -1,5 +1,4 @@
-@extends('layouts.default')
-@section('content')
+
     <div class="container">
         <div class="row" style="padding-top: 60px; line-height: 20px;">
 
@@ -16,5 +15,4 @@
             </div>
         </div>
     </div>
-    @include('layouts._back_to_home')
-@stop
+

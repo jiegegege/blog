@@ -4,13 +4,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- bootstrap -->
-<link rel="stylesheet" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-<!-- <script src="./lib/jquery-3.2.1.min.js"></script> -->
-<script type="text/javascript" src="./lib/wordpress/jquery.js"></script>
-<script src="./lib/bootstrap-3.3.7-dist/js/bootstrap.min.js "></script>
-<!-- bootstrap -->
+<link rel="stylesheet" href="/css/app.css">
+<script src="/js/app.js"></script>
 
 <title>ISMTA 实验室</title>
 
@@ -37,9 +32,6 @@ img.emoji {
 <link rel="stylesheet" id="citylogic-header-left-aligned-css" href="./lib/wordpress/header-left-aligned.css" type="text/css" media="all">
 <link rel="stylesheet" id="otb-font-awesome-css" href="./lib/wordpress/font-awesome.css" type="text/css" media="all">
 <link rel="stylesheet" id="citylogic-style-css" href="./lib/wordpress/style.css" type="text/css" media="all">
-
-<!-- <script type="text/javascript" src="./lib/wordpress/jquery.js"></script> -->
-<script type="text/javascript" src="./lib/wordpress/jquery-migrate.min.js"></script>
 
 <style type="text/css">
 .recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
@@ -134,81 +126,38 @@ div.info-text strong{
     <div class="content-container extra-padded">
         @include('layouts._navbar')
         <div id="content" class="site-content site-container ">
-
-        <div id="primary" class="content-area ">
-            <main id="main" class="site-main" role="main">
-
-                <img src="img/body1.jpg" class="img-rounded img-thumbnail">
-            </main><!-- #main  -->
-            <main id="main" class="site-main site-main2" role="main">
-                <img src="img/body2.jpg" class="img-rounded img-thumbnail">
-            </main><!-- #main -->
-        </div><!-- #primary -->
-
-        <!-- 右侧导航栏 -->
-        <div id="secondary" class="widget-area" role="complementary">
-            <aside id="" class="widget widget_search">
-                <form role="search" method="get" class="search-form" action="">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="input-group">
-                                <input type="text" class="form-control">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </aside>
-
-
-            <aside id="" class="widget">
-                <h2 class="widget-title">实验室自然环境</h2>
-                <ul>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                </ul>
-            </aside>
-
-            <aside id="" class="widget">
-                <h2 class="widget-title">学习资源</h2>
-                <ul id="">
-                    <li class="">
-                    <!-- <span class="comment-author-link">
-                    <a href="" rel="external nofollow" class="url"></a>
-                    </span> -->
-                    <a href=""></a>
-                    </li>
-                </ul>
-            </aside>
-
-            <aside id="" class="widget">
-                <h2 class="widget-title">成果展示</h2>
-                <ul>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                </ul>
-            </aside>
-
-            <aside id="" class="widget">
-                <h2 class="widget-title">未来规划</h2>
-                <ul>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                </ul>
-            </aside>
-
-        </div><!-- #secondary -->
-
+            @include('app.introduction')
         </div><!-- #content -->
     </div><!-- .content-container -->
 
     <!-- 底部 -->
    @include('layouts._footer')
    <!-- #colophon -->
+   <script src="./lib/wordpress/jquery.js"></script>
+   <script type="text/javascript">
+        $(function () {
+        $('#a1').click(function () {
+                $('#content').load("{{route('introduction')}}");//注意连接不能跨域，并且要删除链接中的html,body,head这种标签
+                return false; //禁止跳转
+            });
+        $('#a2').click(function () {
+                $('#content').load("{{route('environment')}}");//注意连接不能跨域，并且要删除链接中的html,body,head这种标签
+                return false; //禁止跳转
+            });
+        $('#a3').click(function () {
+                $('#content').load("{{route('study')}}");//注意连接不能跨域，并且要删除链接中的html,body,head这种标签
+                return false; //禁止跳转
+            });
+        $('#a4').click(function () {
+                $('#content').load("{{ route('led') }}");//注意连接不能跨域，并且要删除链接中的html,body,head这种标签
+                return false; //禁止跳转
+            });
+        $('#a5').click(function () {
+                $('#content').load("http://blog.test/activity");//注意连接不能跨域，并且要删除链接中的html,body,head这种标签
+                return false; //禁止跳转
+            });
+        });
+    </script>
 
     <script type="text/javascript" src="./lib/wordpress/navigation.js"></script>
     <script type="text/javascript" src="./lib/wordpress/jquery.carouFredSel-6.2.1-packed.js"></script>
@@ -216,5 +165,6 @@ div.info-text strong{
     <script type="text/javascript" src="./lib/wordpress/jquery.color.min.js"></script>
     <script type="text/javascript" src="./lib/wordpress/jquery.fittext.min.js"></script>
     <script type="text/javascript" src="./lib/wordpress/jquery.fitbutton.min.js"></script>
+
 </body>
 </html>

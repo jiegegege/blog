@@ -34,4 +34,26 @@ class StaticPagesController extends Controller
     {
         return view('app.activity1');
     }
+
+    public function led()
+    {
+        return view('app.led');
+    }
+
+
+    public function introduction()
+    {
+        return view('app.introduction');
+    }
+
+    public function study()
+    {
+        return view('app.study');
+    }
+
+
+    public function environment()
+    {
+        return view('app.environment');
+    }
 }
