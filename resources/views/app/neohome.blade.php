@@ -53,7 +53,7 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
 <style type="text/css">
 .glyphicon-education{
 
-    font-size:33px;
+    font-size:28px;
     color:#0dd3ac;
     position: relative;
     left: -15px;
@@ -62,7 +62,7 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
     /*font-family: ;*/
     position: relative;
     left: 6px;
-    font-size:32px;
+    font-size:25px;
     color:#0dd3ac;
 }
 .glyphicon-education:hover{
@@ -129,8 +129,10 @@ div.info-text strong{
             <div class="opacity"></div>
         </div>
     </div>
+
     <!-- 主体 -->
     <div class="content-container extra-padded">
+        @include('layouts._navbar')
         <div id="content" class="site-content site-container ">
 
         <div id="primary" class="content-area ">
@@ -214,17 +216,5 @@ div.info-text strong{
     <script type="text/javascript" src="./lib/wordpress/jquery.color.min.js"></script>
     <script type="text/javascript" src="./lib/wordpress/jquery.fittext.min.js"></script>
     <script type="text/javascript" src="./lib/wordpress/jquery.fitbutton.min.js"></script>
-    <!-- <script type="text/javascript">
-    /* <![CDATA[ */
-    var citylogic = {"site_url":"http:\/\/blog.test\/wordpress","page_on_front":"hello-world","solidify_breakpoint":"1000"};
-    /* ]]> */
-    </script>
-    <script type="text/javascript" src="./lib/wordpress/custom.js"></script>
-    <script type="text/javascript" src="./lib/wordpress/skip-link-focus-fix.js"></script>
-    <script type="text/javascript" src="./lib/wordpress/wp-embed.min.js"></script>
-
-    <div class="side-aligned-social-links" style="top: 360px;">
-    <ul class="social-links">
-    </ul></div> -->
 </body>
 </html>

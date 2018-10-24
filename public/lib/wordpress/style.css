@@ -1373,7 +1373,7 @@ body.rounded-corners ul.products li.product a.button.product_type_simple {
 	transform-origin: 0 0;
 	-ms-transform-origin: 0 0;
 	-webkit-transform-origin: 0 0;
-	padding: 31px 0 28px 0;
+	padding: 25px 0 28px 0;
 }
 
 .site-header .branding a.mobile-logo-link {
@@ -4915,4 +4915,8 @@ textarea,
 .header-image .overlay-container .opacity-left,
 .header-image .overlay-container .opacity-right {
 	background-color: rgba(255, 255, 255, 0);
+}
+
+.home.blog .content-container {
+    padding-top: 0px;
 }

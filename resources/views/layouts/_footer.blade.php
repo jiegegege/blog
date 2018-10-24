@@ -1,4 +1,4 @@
-<!--引入此布局需要增加该样式
+<!--引入此布局需要引入该样式
  <link rel="stylesheet" id="citylogic-style-css" href="./lib/wordpress/footer.css" type="text/css" media="all"> -->
 <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="site-footer-bottom-bar">
