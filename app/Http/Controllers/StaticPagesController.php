@@ -41,10 +41,7 @@ class StaticPagesController extends Controller
     }
 
 
-    public function introduction()
-    {
-        return view('app.introduction');
-    }
+
 
     public function study()
     {
@@ -56,4 +53,17 @@ class StaticPagesController extends Controller
     {
         return view('app.environment');
     }
+
+
+
+    public function future()
+    {
+        return view('app.future');
+    }
+
+    public function introduction()
+    {
+        return view('app.introduction');
+    }
+
 }

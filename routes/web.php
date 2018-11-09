@@ -13,8 +13,11 @@ Route::get('activity', 'StaticPagesController@activity')->name('activity');
 
 Route::get('led', 'StaticPagesController@led')->name('led');
 
-Route::get('introduction', 'StaticPagesController@introduction')->name('introduction');
-
 Route::get('study', 'StaticPagesController@study')->name('study');
 
 Route::get('environment', 'StaticPagesController@environment')->name('environment');
+
+Route::get('future', 'StaticPagesController@future')->name('future');
+
+Route::get('introduction', 'StaticPagesController@introduction')->name('introduction');
+

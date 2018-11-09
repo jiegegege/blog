@@ -127,6 +127,7 @@
 
         }
     </style>
+    <div>
     <h2 align="center">LED模拟效果</h2>
     <div id="primary" class="content-area ">
         <div id="leftdiv" style="margin-left: 200px;">
@@ -209,8 +210,8 @@
                             </div>
                         </div>
                         <div class="modal-footer" style="width: 300px;margin: auto;">
-                            <button type="button" class="btn btn-default" data-dismiss="modal" onmousedown="yulan()">预览</button>
-                            <button type="button" class="btn btn-primary">确认修改</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" onmousedown="yulan()">预览</button>
+                            <!-- <button type="button" class="btn btn-primary">确认修改</button> -->
                         </div>
                     </form>
                 </div>

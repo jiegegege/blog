@@ -1,6 +1,41 @@
+<style type="text/css">
+    .home .widget-area {
+        padding-top: 0;
+    }
 
-    <div class="container">
-        <div class="row" style="padding-top: 60px; line-height: 20px;">
+    .widget-area {
+        margin: 0;
+    }
+
+    .panel {
+        width:100%;
+        margin: 0 auto;
+        margin-top: 0px;
+
+    }
+    li{
+        margin-top: 10px;
+    }
+
+</style>
+
+    <div class="panel panel-default panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">这里我们可以：</h3>
+      </div>
+      <div class="panel-body">
+        <ul style="line-height: 20px">
+            <li>传达实验室经营理念并使实验室团队目标一致</li>
+            <li>传达决策者信念</li>
+            <li>脑力激荡，寻求创意，突破经营盲点</li>
+            <li>集思广益共同解决问题与危机</li>
+            <li>检讨、改进缺失</li>
+            <li>达成告知功能</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container" style="margin:0;">
+        <div class="row" style="padding-top: 60px; line-height: 20px;margin-bottom: 20px">
 
             <div class="col-md-5">
                 <img src="http://ismta.oss-cn-shenzhen.aliyuncs.com/1.jpg!.webp" style="width: 360px;" >

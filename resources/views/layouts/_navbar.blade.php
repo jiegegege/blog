@@ -42,11 +42,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbar-menu" style="margin-top: 10px;">
               <ul class="nav navbar-nav navbar-right">
-                <li class="cative"><a id="a1" href="#">实验室简介</a></li>
-                <li class="cative"><a id="a2" href="#">自然环境</a></li>
-                <li class="cative"><a id="a3" href="#">学习资源</a></li>
-                <li class="cative"><a id="a4" href="#">成果展示</a></li>
-                <li class="cative"><a id="a5" href="#">未来规划</a></li>
+                <li class="cative"><a id="a1" href="#">自然环境</a></li>
+                <li class="cative"><a id="a2" href="#">学习资源</a></li>
+                <li class="cative"><a id="a3" href="#">成果展示</a></li>
+                <li class="cative"><a id="a4" href="#">未来规划</a></li>
                 <aside id="" class="widget widget_search">
                     <form role="search" method="get" class="search-form" action="">
                         <div class="row" style="margin-top: 5px;">

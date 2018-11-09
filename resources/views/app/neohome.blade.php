@@ -43,6 +43,9 @@ body,.content-container,.masonry-grid-container article.blog-post-masonry-grid-l
 </style>
 <!-- End Custom CSS -->
 <style type="text/css">
+.home.blog .content-container {
+    padding-top: 23px !important;
+}
 .glyphicon-education{
 
     font-size:28px;
@@ -89,9 +92,6 @@ div.info-text strong{
                     <a href="" class="brand-bar glyphicon glyphicon-education" marked="1" ></a>
                     <span class="mytitle">ISMTA实验室</span>
             </div>
-
-
-
             <div class="site-header-right ">
 
                 <div class="top info-text">
@@ -121,43 +121,79 @@ div.info-text strong{
             <div class="opacity"></div>
         </div>
     </div>
-
-    <!-- 主体 -->
     <div class="content-container extra-padded">
-        @include('layouts._navbar')
         <div id="content" class="site-content site-container ">
-            @include('app.introduction')
-        </div><!-- #content -->
-    </div><!-- .content-container -->
 
-    <!-- 底部 -->
+        <div id="primary" class="content-area ">
+            <main id="main" class="site-main" role="main">
+
+                <img src="img/body1.jpg" class="img-rounded img-thumbnail">
+            </main><!-- #main  -->
+            <main id="main" class="site-main site-main2" role="main">
+                <img src="img/body2.jpg" class="img-rounded img-thumbnail">
+            </main><!-- #main -->
+        </div><!-- #primary -->
+
+        <!-- 右侧导航栏 -->
+        <div id="secondary" class="widget-area" role="complementary">
+            <aside id="" class="widget widget_search">
+                <form role="search" method="get" class="search-form" action="">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </aside>
+
+
+            <aside id="" class="widget">
+                <a href="{{route('introduction',['page'=>'environment','img1'=>'a1.jpg','img2'=>'a8.jpg','num'=>'1'])}}"><h2 class="widget-title">>实验室自然环境</h2></a>
+                <ul>
+                    <li>
+
+                    </li>
+                </ul>
+            </aside>
+
+            <aside id="" class="widget">
+                <a href="{{route('introduction',['page'=>'study','img1'=>'a7.jpg','img2'=>'a6.jpg','num'=>'2'])}}"><h2 class="widget-title">>学习资源</h2></a>
+                <ul id="">
+                    <li class="">
+                    <a href=""></a>
+                    </li>
+                </ul>
+            </aside>
+
+            <aside id="" class="widget">
+                <a href="{{route('introduction',['page'=>'led','img1'=>'a2.jpg','img2'=>'a4.jpg','num'=>'3'])}}"><h2 class="widget-title">>成果展示</h2></a>
+                <ul>
+                    <li>
+                        <a href=""></a>
+                    </li>
+                </ul>
+            </aside>
+
+            <aside id="" class="widget">
+                <a href="{{route('introduction',['page'=>'future','img1'=>'f1.jpg','img2'=>'f2.jpg','num'=>'4'])}}"><h2 class="widget-title">>未来规划</h2></a>
+                <ul>
+                    <li>
+                        <a href=""></a>
+                    </li>
+                </ul>
+            </aside>
+
+        </div><!-- #secondary -->
+
+        </div><!-- #content -->
+    </div>
    @include('layouts._footer')
-   <!-- #colophon -->
    <script src="./lib/wordpress/jquery.js"></script>
-   <script type="text/javascript">
-        $(function () {
-        $('#a1').click(function () {
-                $('#content').load("{{route('introduction')}}");//注意连接不能跨域，并且要删除链接中的html,body,head这种标签
-                return false; //禁止跳转
-            });
-        $('#a2').click(function () {
-                $('#content').load("{{route('environment')}}");//注意连接不能跨域，并且要删除链接中的html,body,head这种标签
-                return false; //禁止跳转
-            });
-        $('#a3').click(function () {
-                $('#content').load("{{route('study')}}");//注意连接不能跨域，并且要删除链接中的html,body,head这种标签
-                return false; //禁止跳转
-            });
-        $('#a4').click(function () {
-                $('#content').load("{{ route('led') }}");//注意连接不能跨域，并且要删除链接中的html,body,head这种标签
-                return false; //禁止跳转
-            });
-        $('#a5').click(function () {
-                $('#content').load("http://blog.test/activity");//注意连接不能跨域，并且要删除链接中的html,body,head这种标签
-                return false; //禁止跳转
-            });
-        });
-    </script>
+
 
     <script type="text/javascript" src="./lib/wordpress/navigation.js"></script>
     <script type="text/javascript" src="./lib/wordpress/jquery.carouFredSel-6.2.1-packed.js"></script>
